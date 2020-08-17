@@ -2,17 +2,44 @@
 
  
  img {
- width:330px;
-  height: 350px;
+ width:1400px;
+  height: 400px;
   border-radius: 8px;
 }
+
+#images{
+	visibility: hidden;
+  height: 400px;
+  width:1400px;
+
+}
+
 
 
 body{
 
-	background-color:#ccffff; 
+  background-image: url("my favorit.jpg");
+  background-repeat: repeat;
+  background-size: 1000px 1500px;
 }
+ 
+
+
+
 h1{
-	color: blue;
+	color:#ffffff;
 	text-align: center;
+}
+.mylist{
+visibility: hidden;
+}	
+
+h2{
+	color:#ffffff
+}
+
+button {
+  background-color: #0000ff;
+  color: white;
+  padding: 30px 48px;
 }
