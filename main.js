@@ -2,8 +2,10 @@ $(document).ready(function(){
  
 	$("body").on('click',function(){
 		if($("img").attr("src")==="image1.jpg"){$("img").attr("src","image2.jpg")}
-  else if($("img").attr("src")==="image2.jpg"){$("img").attr("src","image3.jpg")}
-  	else if($("img").attr("src")===""){$("img").attr("src","image1.jpg")}
+         else if($("img").attr("src")==="image2.jpg"){$("img").attr("src","image3.jpg")}
+  	        else if($("img").attr("src")===""){$("img").attr("src","image1.jpg")}
+
+
 		var showImage=("<div></div>");  
       
       $("img").css("visibility", "visible")
@@ -11,15 +13,12 @@ $(document).ready(function(){
 	$("#myButton").on('click',function(){
 		var myClick= ("<div></div>");
 		$("li").css("visibility" , "visible")
-	 $("li").css({"color":"white","font-size": "30px","font-weight":"bold"})
-	 $("p").css("visibility" , "visible")
-	$("p").css({"color": " #00ccff", "font-size": "150%","text-align":"left" ,"font-weight":"bold"})
-	      
-	    
+	      $("li").css({"color":"white","font-size": "30px","font-weight":"bold"})
+	        $("p").css("visibility" , "visible")
+	           $("p").css({"color": " #00ccff", "font-size": "150%","text-align":"left" ,"font-weight":"bold"})
+	
+	         
 	});
 });
 
 
-//var images=["first for first.jpg","second for first.jpg","crative thinking.png"]
-
-//$("img")images.indexOf('src', src);

@@ -10,6 +10,8 @@
   margin-right: auto;
 }
 
+
+
 #images{
 	visibility: hidden;
   height: 400px;
@@ -36,26 +38,37 @@ h1{
 	color:#ffffff;
 	text-align: center;
   font-weight : bold ;
-   font-size : 600% ;
+   font-size : 300% ;
+   border-style:solid;
+  border-color: #ffffff;
 }
+
 
 .mylist{
 visibility: hidden;
 }	
+
+
  p {
    visibility: hidden
  }
+
 
 
 h2 {
 	color:#ffffff
 }
 
+
+
 button {
   background-color: #0000ff;
   color: white;
   padding: 30px 150px;
 }
+
+
+
 
 a {
   color: #000080;
